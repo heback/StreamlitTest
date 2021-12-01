@@ -14,3 +14,8 @@ checkbox_btn = st.checkbox('Checktbox Button')
 	
 if checkbox_btn:
   st.write('Great!')
+
+checkbox_btn2 = st.checkbox('Checktbox Button2', value=True)
+	
+if checkbox_btn2:
+  st.write('Button2')
