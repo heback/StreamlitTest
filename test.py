@@ -49,6 +49,9 @@ import datetime
 d = st.date_input("When's your birthday", datetime.date(2019, 7, 6))
 st.write('Your birthday is:', d)
 
+import pandas as pd
+import numpy as np
+
 st.write("st.dataframe api")
 df = pd.DataFrame(np.random.randn(5, 2), columns=('col %d' % i for i in range(2)))
 st.dataframe(df.style.highlight_max(axis=0))
