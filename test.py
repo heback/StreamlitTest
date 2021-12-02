@@ -44,3 +44,5 @@ st.write('You selected wavelengths between', start_color, 'and', end_color)
 st.text_input("비밀번호 입력", '1234', type="password")
 
 st.text_area("여러 줄 입력")
+
+st.date_input("날짜 선택")
