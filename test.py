@@ -39,3 +39,6 @@ start_color, end_color = st.select_slider(
   options=['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'],
   value=('red', 'blue'))
 st.write('You selected wavelengths between', start_color, 'and', end_color)
+
+
+st.text_input("비밀번호 입력", '1234', type="password")
