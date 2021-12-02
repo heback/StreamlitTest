@@ -1,5 +1,10 @@
 import streamlit as st
 
+add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+)
+
 st.title("Title")
 st.header("Header")
 st.subheader("subheader")
@@ -76,7 +81,3 @@ if not name:
   st.stop()
 st.success('Thank you for inputting a name.')
 
-add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
-)
