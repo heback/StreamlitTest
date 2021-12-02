@@ -5,6 +5,9 @@ add_selectbox = st.sidebar.selectbox(
     ("Email", "Home phone", "Mobile phone")
 )
 
+link = '[GitHub](http://github.com)'
+st.sidebar.markdown(link, unsafe_allow_html=True)
+
 st.title("Title")
 st.header("Header")
 st.subheader("subheader")
