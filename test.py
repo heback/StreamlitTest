@@ -19,3 +19,7 @@ checkbox_btn2 = st.checkbox('Checktbox Button2', value=True)
 	
 if checkbox_btn2:
   st.write('Button2')
+
+option = st.selectbox('Please select in selectbox!',
+                       ('kyle', 'seongyun', 'zzsza'))
+st.write('You selected:', option)
