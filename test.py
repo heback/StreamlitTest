@@ -23,3 +23,7 @@ if checkbox_btn2:
 option = st.selectbox('Please select in selectbox!',
                        ('kyle', 'seongyun', 'zzsza'))
 st.write('You selected:', option)
+
+multi_select = st.multiselect('Please select somethings in multi selectbox!',
+                                ['A', 'B', 'C', 'D'])
+st.write('You selected:', multi_select)
