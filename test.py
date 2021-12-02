@@ -75,3 +75,8 @@ if not name:
   st.warning('Please input a name.')
   st.stop()
 st.success('Thank you for inputting a name.')
+
+add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+)
