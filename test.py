@@ -48,3 +48,10 @@ st.text_area("여러 줄 입력")
 import datetime
 d = st.date_input("When's your birthday", datetime.date(2019, 7, 6))
 st.write('Your birthday is:', d)
+
+st.write("st.dataframe api")
+df = pd.DataFrame(np.random.randn(5, 2), columns=('col %d' % i for i in range(2)))
+st.dataframe(df.style.highlight_max(axis=0))
+	
+st.write("st.table api")
+st.table(df)
