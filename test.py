@@ -45,4 +45,5 @@ st.text_input("비밀번호 입력", '1234', type="password")
 
 st.text_area("여러 줄 입력")
 
-st.date_input("날짜 선택")
+d = st.date_input("When's your birthday",datetime.date(2019, 7, 6))
+st.write('Your birthday is:', d)
